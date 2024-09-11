@@ -9,8 +9,8 @@ function Heading(){
 function App() {
   return (
     <div>
-      <Heading/>
-      Si es el mejor del mundo
+      <Heading name = 'Nicolas Lis Cruz es el mejor' color = 'purple'/>
+      <Heading name = 'Si es el mejor del mundo' color = 'purple'/>
     </div>
   );
 }
