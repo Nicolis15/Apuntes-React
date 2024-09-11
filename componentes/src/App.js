@@ -13,7 +13,7 @@ function App() {
       <Heading/>
       <div>
         <Main contenido = "Tengo 21 anos" />
-        <Sidebar contenido = "soy ingeniero de sistemas"/>
+        <Sidebar   contenido = "soy ingeniero de sistemas"/>
       </div>
       <Nav first = 'Nicolas'/>
     </div>
