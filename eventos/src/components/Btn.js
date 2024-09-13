@@ -1,20 +1,21 @@
+import { useState } from 'react';
+
 function Btn(){
     let darkModeOn = false;
-    const darkMode = <h1>Dark Mode is On</h1>
-    const lightMode = <h1>Light Mode is On</h1>
+    const [texto, setText] = useState('Dark Mode is On') 
+
 
     const click = () => {
         darkModeOn = !darkModeOn;
-        if(darkModeOn == true){
-            console.log("Dark mode is on")
-        }
-        else{
-            console.log("Light mode is on")
+        if(darkModeOn){
+            setText('Light Mode is On')
+        }else{
+            setText('Dark Mode is On')
         }
     }
     return(
         <div>
-            {darkModeOn ? darkMode : lightMode}
+            <h1>{texto}</h1>
             <button onClick = {click}>
             Click me
             </button>
