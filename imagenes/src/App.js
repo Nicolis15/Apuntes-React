@@ -3,10 +3,6 @@ import './App.css';
 import img from'./assets/img.jpg'
 
 function App() {
-  const bag = {
-    display: 'flex',
-    flexDirection: 'column'
-  }
   const url = 'https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-the-small-kid-looks-sad-while-sitting-on-the-ground-image_2681004.jpg'
   return (
     <div className="App">
@@ -17,5 +13,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
