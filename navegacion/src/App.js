@@ -15,9 +15,11 @@ function App() {
         <Route path='/contact' element = {<Contact/>}/>
         <Route path='/nicolas' element = {<Nicolas/>}/>
       </Routes>
-
     </div>
   );
 }
+const fecha = new Date();
+
+
 
 export default App;
